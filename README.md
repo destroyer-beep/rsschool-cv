@@ -1,1 +1,1 @@
-# [rsschool-cv](https://destroyer-beep.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://destroyer-beep.github.io/rsschool-cv/)
