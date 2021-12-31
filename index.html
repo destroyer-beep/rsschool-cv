@@ -1,1 +1,126 @@
-git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV Khramov Vladimir</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav></nav>
+      <div class="header__wrapper">
+        <div class="header__info">
+          <h1 class="header__name">Khramov Vladimir</h1>
+          <p class="header__profession">Junior Frontend developer</p>
+        </div>
+        <div class="header__photo">
+          <img src="./img/photo.jpg" alt="My photo">
+        </div>
+      </div>
+    </div>
+    <div class="header__contacts">
+      <div class="container">
+        <ul class="header__contacts_items">
+          <li class="header__contacts_item"><img src="./img/github_icon.png" alt="GitHub"><a href="https://github.com/destroyer-beep" target=_blanc>GitHub</a></li>
+          <li class="header__contacts_item"><img src="./img/vk__icon.png" alt="VK"><a href="https://vk.com/id493396530" target=_blanc>VK</a></li>
+          <li class="header__contacts_item"><img src="./img/telegram__icon.png" alt="Telegram"><a href="https://t.me/DaRtH_VaDeR1704" target=_blanc>Telegram</a></li>
+          <li class="header__contacts_item"><img src="./img/mail__icon.png" alt="E-mail"><a href="mailto:destroyer.hramov@gmail.com" target=_blanc>GMail(destroyer.hramov@gmail.com)</a></li>
+          <li class="header__contacts_item"><img src="./img/mail__icon.png" alt="E-mail"><a href="mailto:destroyer.hramov@yandex.ru" target=_blanc>Yandex(destroyer.hramov@yandex.ru)</a></li>
+          <li class="header__contacts_item"><img src="./img/phone__icon.png" alt="Phone"><a href="tel:+79372527034">Phone (+7 937 252 70 34)</a></li>
+          <li class="header__contacts_item"><img src="./img/discord__icon.png" alt="Discord">Discord (Captain DOIGRALES#2751)</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="about">
+        <h2 class="section__header">A little bit about yourself</h2>
+        <p class="about__text">From early childhood I wanted to become a programmer, I still can't explain my craving for this profession, but here I am. After graduating from high school, I tried to go to college as a general programmer, but the group was closed and I had to get the profession of a civil engineer. Many years later I decided to do programming again and my choice fell on front-end development and in particular on JS. By all means, I will go through this path to the end. Thank you for your attention!</p>
+      </div>
+
+      <div class="skills">
+        <h2 class="section__header">My skills</h2>
+        <p class="skills__text">
+          <ul class="skills__items">
+            <li class="skills__item">HTML 5</li>
+            <li class="skills__item">CSS 3</li>
+            <li class="skills__item">JavaScript(ES6) Basics</li>
+            <li class="skills__item">SCSS</li>
+            <li class="skills__item">LESS</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">VS Code</li>
+            <li class="skills__item">Web Storm</li>
+            <li class="skills__item">Figma</li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="example">
+        <h2 class="section__header">Code example</h2>
+        <p class="example__description">Return the number (count) of vowels in the given string.
+        We will consider a, e, i, o, u as vowels for this Kata (but not y).
+        The input string will only consist of lower case letters and/or spaces.</p>
+        <p class="example__code">
+          <code>
+            function getCount(str) { <br>
+              var vowelsCount = 0; <br>
+              var vowels = ["a","e","i","o","u"]; <br>
+              for(var i = 0;i < str.length;i++){ <br>
+                for(var j=0;j&lt;vowels.length;j++){ <br>
+                  if(str[i] === vowels[j]){ <br>
+                    vowelsCount++; <br>
+                  } <br>
+                } <br>
+              } <br>
+              <br>
+              return vowelsCount; <br>
+            }
+          </code>
+        </p>
+      </div>
+
+      <div class="project">
+        <h2 class="section__header">My project</h2>
+        <ul class="project__items">
+          <li class="project__item"><a href="https://github.com/destroyer-beep/Tic-tac-toe" target=_blanc>Tic-tac-toe</a></li>
+          <li class="project__item"><a href="https://github.com/destroyer-beep/hover-board" target=_blanc>Hover-board</a></li>
+          <li class="project__item"><a href="https://github.com/destroyer-beep/slider" target=_blanc>Slider</a></li>
+          <li class="project__item"><a href="https://github.com/destroyer-beep/drag-drop" target=_blanc>Drag-drop</a></li>
+          <li class="project__item"><a href="https://github.com/destroyer-beep/-theatre" target=_blanc>Theatre</a></li>
+          <li class="project__item"><a href="https://github.com/destroyer-beep/clock-site" target=_blanc>Clock-site</a></li>
+        </ul>
+      </div>
+
+      <div class="courses">
+        <h2 class="section__header">My courses</h2>
+        <ul class="courses__items">
+          <li class="courses__item"><a href="https://www.w3schools.com/" target=_blanc>W3schools</a></li>
+          <li class="courses__item"><a href="https://learn.javascript.ru/" target=_blanc>Learn.javascript</a></li>
+          <li class="courses__item"><a href="https://learngitbranching.js.org/?locale=ru_RU" target=_blanc>Learngitbranching</a></li>
+          <li class="courses__item"><a href="https://ru.code-basics.com/" target=_blanc>Code-basics</a></li>
+        </ul>
+      </div>
+
+      <div class="languages">
+        <h2 class="section__header">My languages</h2>
+        <p class="languages__text"><a href="https://www.efset.org/" target=_blanc>EFSET</a> - Your score explained Your score indicates that your level of English is in the range of A1 BEGINNER to A2 ELEMENTARY, according to the guidelines set by the Common European Framework of Reference (CEFR). You are on your way to comprehending written and spoken vocabulary and sentences in English on topics from your daily life</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <a href="https://github.com/destroyer-beep" target=_blanc>GitHub: destroyer-beep</a>
+        <p>2021</p>
+        <a href="https://rs.school/js-stage0/" target=_blanc><img src="./img/logo.svg" alt="Logo"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
