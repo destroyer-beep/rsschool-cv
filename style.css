@@ -198,3 +198,37 @@
   color: black;
 }
 
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+}
+
+.footer__box a {
+  color: orange;
+  text-decoration: none;
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__box a:visited {
+  color: orange;
+}
+
+.footer__box a:hover {
+  color: black;
+}
+
+.footer__box p {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__box img {
+  width: 100px;
+}
