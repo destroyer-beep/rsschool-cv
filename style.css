@@ -1,1 +1,234 @@
-git
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .header__wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__name {
+    margin-top: 30px;
+  }
+}
+
+.header__name {
+  font-family: Arial;
+  font-size: 40px;
+}
+
+.header__profession {
+  margin-top: 30px;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.header__photo img {
+  width: 225px;
+}
+
+.header__contacts_items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header__contacts_item {
+  margin-top: 20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__contacts_item img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.header__contacts_item {
+  color: orange;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.header__contacts_item a {
+  color: orange;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+@media (max-width: 450px) {
+
+  .header__contacts_items{
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header__contacts_item {
+    justify-content: start;
+  }
+
+  .header__contacts_item a {
+    font-size: 15px;
+  }
+}
+
+
+.header__contacts_item a:visited {
+  color: orange;
+}
+
+.header__contacts_item a:hover {
+  color: black;
+}
+
+.section__header {
+  margin: 70px 0 30px 0;
+  font-family: Arial;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about__text {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.skills__item {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.example__description {
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.example__code {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.507);
+}
+
+.example__code code {
+  font-size: 16px;
+}
+
+.project__item {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project__item a {
+  color: orange;
+  text-decoration: none;
+}
+
+.project__item a:visited {
+  color: orange;
+}
+
+.project__item a:hover {
+  color: black;
+}
+
+.courses__item {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.courses__item a {
+  color: orange;
+  text-decoration: none;
+}
+
+.courses__item a:visited {
+  color: orange;
+}
+
+.courses__item a:hover {
+  color: black;
+}
+
+.languages__text {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.languages__text a {
+  color: orange;
+  text-decoration: none;
+}
+
+.languages__text a:visited {
+  color: orange;
+}
+
+.languages__text a:hover {
+  color: black;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+}
+
+.footer__box a {
+  color: orange;
+  text-decoration: none;
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__box a:visited {
+  color: orange;
+}
+
+.footer__box a:hover {
+  color: black;
+}
+
+.footer__box p {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__box img {
+  width: 100px;
+}
